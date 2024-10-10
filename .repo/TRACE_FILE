@@ -1,0 +1,724 @@
+PID: 46464 START: 1728518333333478144 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241009T235850Z-P0000b580/repo-20241009T235853Z-P0000b580]
+
+PID: 46464 START: 1728518333335675392 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 46464 END: 1728518333337901568 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 46464 START: 1728518333338580224 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 46464 END: 1728518333339853312 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 46464 START: 1728518333340051456 :: parsing /home/kim/.gitconfig
+
+PID: 46464 END: 1728518333340255232 :: parsing /home/kim/.gitconfig
+
+PID: 46464 START: 1728518333340364288 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 46464 END: 1728518333341680128 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 46464 START: 1728518333341794560 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 46464 END: 1728518333343107072 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 46464 START: 1728518333343231232 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 46464 END: 1728518333344507648 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 46464 START: 1728518333344662272 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/kyoungbinkim/algoManifest.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/kyoungbinkim/algoManifest.git 1>| 2>|
+
+PID: 46464 END: 1728518333345927936 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/kyoungbinkim/algoManifest.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/kyoungbinkim/algoManifest.git 1>| 2>|
+
+PID: 46464 START: 1728518333346133248 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 46464 END: 1728518333347463424 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 46464 START: 1728518333347577856 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 46464 END: 1728518334001673216 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 46464 START: 1728518334001885184 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 46464 END: 1728518334003229440 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 46464 END: 1728518334003353856 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241009T235850Z-P0000b580/repo-20241009T235853Z-P0000b580]
+
+PID: 49107 START: 1728518566376146176 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000246Z-P0000bfd3/repo-20241010T000246Z-P0000bfd3]
+
+PID: 49107 START: 1728518566377605888 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 49107 END: 1728518566378770688 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 49107 START: 1728518566378940160 :: parsing /home/kim/.gitconfig
+
+PID: 49107 END: 1728518566379052032 :: parsing /home/kim/.gitconfig
+
+PID: 49107 START: 1728518566380203776 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 49107 END: 1728518566381618688 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 49107 START: 1728518566382308352 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49107 END: 1728518567075538432 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49107 START: 1728518567075774208 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 49107 END: 1728518567077200640 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 49107 START: 1728518571078216960 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49107 END: 1728518571762313472 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49107 END: 1728518571762649088 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000246Z-P0000bfd3/repo-20241010T000246Z-P0000bfd3]
+
+PID: 49666 START: 1728518615177475584 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000335Z-P0000c202/repo-20241010T000335Z-P0000c202]
+
+PID: 49666 START: 1728518615178927872 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 49666 END: 1728518615180374784 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 49666 START: 1728518615180531456 :: parsing /home/kim/.gitconfig
+
+PID: 49666 END: 1728518615180590848 :: parsing /home/kim/.gitconfig
+
+PID: 49666 START: 1728518615182360320 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49666 END: 1728518615856419584 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49666 START: 1728518615856654336 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 49666 END: 1728518615857986048 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 49666 START: 1728518619858545664 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49666 END: 1728518620479471616 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 49666 END: 1728518620479842816 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000335Z-P0000c202/repo-20241010T000335Z-P0000c202]
+
+PID: 50926 START: 1728518735974762240 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000535Z-P0000c6ee/repo-20241010T000535Z-P0000c6ee]
+
+PID: 50926 START: 1728518735974936832 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 50926 END: 1728518735975067392 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 50926 START: 1728518735975148544 :: parsing /home/kim/.gitconfig
+
+PID: 50926 END: 1728518735975191040 :: parsing /home/kim/.gitconfig
+
+PID: 50926 START: 1728518735977836544 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 50926 END: 1728518736669259776 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 50926 START: 1728518736669552128 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 50926 END: 1728518736670823680 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 50926 START: 1728518740671414272 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 50926 END: 1728518741207797760 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 50926 END: 1728518741208261120 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000535Z-P0000c6ee/repo-20241010T000535Z-P0000c6ee]
+
+PID: 51074 START: 1728518750849124864 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000550Z-P0000c782/repo-20241010T000550Z-P0000c782]
+
+PID: 51074 START: 1728518750849289216 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 51074 END: 1728518750849367296 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 51074 START: 1728518750849401856 :: parsing /home/kim/.gitconfig
+
+PID: 51074 END: 1728518750849443584 :: parsing /home/kim/.gitconfig
+
+PID: 51074 START: 1728518750852353536 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51074 END: 1728518751395077376 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51074 START: 1728518751395357952 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 51074 END: 1728518751396662528 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 51074 START: 1728518755397302016 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51074 END: 1728518755979910400 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51074 END: 1728518755980367360 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000550Z-P0000c782/repo-20241010T000550Z-P0000c782]
+
+PID: 51960 START: 1728518827739688704 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000707Z-P0000caf8/repo-20241010T000707Z-P0000caf8]
+
+PID: 51960 START: 1728518827739878912 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 51960 END: 1728518827739943168 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 51960 START: 1728518827740029696 :: parsing /home/kim/.gitconfig
+
+PID: 51960 END: 1728518827740090112 :: parsing /home/kim/.gitconfig
+
+PID: 51960 START: 1728518827742812928 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51960 END: 1728518828387931136 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51960 START: 1728518828388204032 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 51960 END: 1728518828389597696 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 51960 START: 1728518832390209536 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51960 END: 1728518833025011456 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 51960 END: 1728518833025372672 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000707Z-P0000caf8/repo-20241010T000707Z-P0000caf8]
+
+PID: 52292 START: 1728518857919366912 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20241010T000737Z-P0000cc44/repo-20241010T000737Z-P0000cc44]
+
+PID: 52292 START: 1728518857919550720 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 52292 END: 1728518857919617792 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 52292 START: 1728518857919654400 :: parsing /home/kim/.gitconfig
+
+PID: 52292 END: 1728518857919697920 :: parsing /home/kim/.gitconfig
+
+PID: 52292 START: 1728518857921845248 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 52292 END: 1728518857923155968 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 52292 START: 1728518857927587584 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 52292 END: 1728518857928791552 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 52292 END: 1728518857928854528 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20241010T000737Z-P0000cc44/repo-20241010T000737Z-P0000cc44]
+
+PID: 52317 START: 1728518860967887616 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000740Z-P0000cc5d/repo-20241010T000740Z-P0000cc5d]
+
+PID: 52317 START: 1728518860968115968 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 52317 END: 1728518860968183296 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 52317 START: 1728518860968220160 :: parsing /home/kim/.gitconfig
+
+PID: 52317 END: 1728518860968263424 :: parsing /home/kim/.gitconfig
+
+PID: 52317 START: 1728518860971151360 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52317 END: 1728518861701179392 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52317 START: 1728518861701431552 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 52317 END: 1728518861702713856 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 52317 START: 1728518865703574272 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52317 END: 1728518866406457600 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52317 END: 1728518866406821376 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000740Z-P0000cc5d/repo-20241010T000740Z-P0000cc5d]
+
+PID: 52740 START: 1728518895084655360 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000814Z-P0000ce04/repo-20241010T000815Z-P0000ce04]
+
+PID: 52740 START: 1728518895084816640 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 52740 END: 1728518895084887296 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 52740 START: 1728518895084923392 :: parsing /home/kim/.gitconfig
+
+PID: 52740 END: 1728518895085000448 :: parsing /home/kim/.gitconfig
+
+PID: 52740 START: 1728518895087698432 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52740 END: 1728518895773759744 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52740 START: 1728518895774060288 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 52740 END: 1728518895775439104 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 52740 START: 1728518899776043264 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52740 END: 1728518900545804032 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 52740 END: 1728518900546199040 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000814Z-P0000ce04/repo-20241010T000815Z-P0000ce04]
+
+PID: 53076 START: 1728518925374361856 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000845Z-P0000cf54/repo-20241010T000845Z-P0000cf54]
+
+PID: 53076 START: 1728518925374539264 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 53076 END: 1728518925374604288 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 53076 START: 1728518925374640896 :: parsing /home/kim/.gitconfig
+
+PID: 53076 END: 1728518925374683904 :: parsing /home/kim/.gitconfig
+
+PID: 53076 START: 1728518925377468928 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 53076 END: 1728518926070205184 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 53076 START: 1728518926070452480 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 53076 END: 1728518926071739648 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 53076 START: 1728518930072386304 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 53076 END: 1728518930799087872 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 53076 END: 1728518930799462144 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000845Z-P0000cf54/repo-20241010T000845Z-P0000cf54]
+
+PID: 54070 START: 1728518992672067328 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000952Z-P0000d336/repo-20241010T000952Z-P0000d336]
+
+PID: 54070 START: 1728518992672239104 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 54070 END: 1728518992672304640 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 54070 START: 1728518992672341760 :: parsing /home/kim/.gitconfig
+
+PID: 54070 END: 1728518992672454144 :: parsing /home/kim/.gitconfig
+
+PID: 54070 START: 1728518992675369472 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 54070 END: 1728518993476034816 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 54070 START: 1728518993476299264 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 54070 END: 1728518993477598976 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 54070 START: 1728518997478373120 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 54070 END: 1728518998176792576 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 54070 END: 1728518998177201152 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T000952Z-P0000d336/repo-20241010T000952Z-P0000d336]
+
+PID: 55437 START: 1728519102744945920 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T001142Z-P0000d88d/repo-20241010T001142Z-P0000d88d]
+
+PID: 55437 START: 1728519102745164544 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 55437 END: 1728519102745228800 :: parsing /home/kim/workspace/algoManifest/.repo/manifests.git/config
+
+PID: 55437 START: 1728519102745263872 :: parsing /home/kim/.gitconfig
+
+PID: 55437 END: 1728519102745308160 :: parsing /home/kim/.gitconfig
+
+PID: 55437 START: 1728519102748235264 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55437 END: 1728519103543301120 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55437 START: 1728519103543617280 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 55437 END: 1728519103544914688 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 55437 START: 1728519103545315328 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/kim/workspace/algoManifest/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 55437 END: 1728519103546904832 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/kim/workspace/algoManifest/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 55437 START: 1728519103547003648 :: load refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55437 END: 1728519103547234816 :: load refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55437 START: 1728519103547396096 :: scan refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55437 END: 1728519103547432192 :: scan refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55437 START: 1728519103547544320 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '36cd3a064e5a607630de5cdf1894a4114df0f345'] with debug: : git update-ref refs/heads/default 36cd3a064e5a607630de5cdf1894a4114df0f345 1>| 2>|
+
+PID: 55437 END: 1728519103549090304 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '36cd3a064e5a607630de5cdf1894a4114df0f345'] with debug: : git update-ref refs/heads/default 36cd3a064e5a607630de5cdf1894a4114df0f345 1>| 2>|
+
+PID: 55437 START: 1728519103549222656 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 55437 END: 1728519103550709760 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 55437 START: 1728519107318921728 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /home/kim/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 55437 END: 1728519107323821824 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /home/kim/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 55437 START: 1728519107324113664 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 55437 END: 1728519107325568000 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 55437 END: 1728519107325647616 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/kyoungbinkim/algoManifest.git, -m, ./default.xml [sid=repo-20241010T001142Z-P0000d88d/repo-20241010T001142Z-P0000d88d]
+
+PID: 55676 START: 1728519122332523776 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20241010T001202Z-P0000d97c/repo-20241010T001202Z-P0000d97c]
+
+PID: 55676 START: 1728519122334004224 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 55676 END: 1728519122335282688 :git command None ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 55676 START: 1728519122338474752 :git command None ['git', 'config', '--file', '/home/kim/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 55676 END: 1728519122339788288 :git command None ['git', 'config', '--file', '/home/kim/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 55676 START: 1728519122341254656 :: parsing /home/kim/workspace/algoManifest/.repo/repo/.git/config
+
+PID: 55676 END: 1728519122341320960 :: parsing /home/kim/workspace/algoManifest/.repo/repo/.git/config
+
+PID: 55676 START: 1728519122343569152 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55676 END: 1728519122993188096 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/kim/workspace/algoManifest/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55676 START: 1728519122993297664 :: load refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 END: 1728519122993511424 :: load refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 START: 1728519122993641728 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 55676 END: 1728519122995892480 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 55676 START: 1728519122996019200 :: scan refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 END: 1728519122996132864 :: scan refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 START: 1728519122996177664 :: load refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 END: 1728519122996696832 :: load refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 START: 1728519122996752640 :: scan refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 END: 1728519122996816128 :: scan refs /home/kim/workspace/algoManifest/.repo/manifests.git
+
+PID: 55676 START: 1728519122997118208 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 55676 END: 1728519122998632960 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 55676 START: 1728519122998785280 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '2'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 2 1>| 2>|
+
+PID: 55676 END: 1728519123001367808 :git command /home/kim/workspace/algoManifest/.repo/manifests.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '2'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 2 1>| 2>|
+
+PID: 55676 START: 1728519123035625984 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git
+: git init 1>| 2>|
+
+PID: 55676 END: 1728519123038273536 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git
+: git init 1>| 2>|
+
+PID: 55676 START: 1728519123040374016 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --null --list 1>| 2>|
+
+PID: 55676 END: 1728519123041613568 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --null --list 1>| 2>|
+
+PID: 55676 START: 1728519123041837568 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 55676 END: 1728519123043104000 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 55676 START: 1728519123043225856 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 55676 END: 1728519123044456960 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 55676 START: 1728519123044586240 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 55676 END: 1728519123045795840 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 55676 START: 1728519123045966080 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/kyoungbinkim/algorithmStudy.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all remote.origin.url https://github.com/kyoungbinkim/algorithmStudy.git 1>| 2>|
+
+PID: 55676 END: 1728519123047346688 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/kyoungbinkim/algorithmStudy.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all remote.origin.url https://github.com/kyoungbinkim/algorithmStudy.git 1>| 2>|
+
+PID: 55676 START: 1728519123047498496 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'kyoungbinkim/algorithmStudy.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all remote.origin.projectname kyoungbinkim/algorithmStudy.git 1>| 2>|
+
+PID: 55676 END: 1728519123048781568 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'kyoungbinkim/algorithmStudy.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all remote.origin.projectname kyoungbinkim/algorithmStudy.git 1>| 2>|
+
+PID: 55676 START: 1728519123048926720 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 55676 END: 1728519123050259456 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 55676 START: 1728519123050437376 :Fetching bundle: curl --fail --output /home/kim/workspace/algoManifest/.repo/projects/project1.git/clone.bundle.tmp --netrc --location https://github.com/kyoungbinkim/algorithmStudy.git/clone.bundle
+
+PID: 55676 END: 1728519123051011584 :Fetching bundle: curl --fail --output /home/kim/workspace/algoManifest/.repo/projects/project1.git/clone.bundle.tmp --netrc --location https://github.com/kyoungbinkim/algorithmStudy.git/clone.bundle
+
+PID: 55676 START: 1728519123343514112 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project1.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55676 END: 1728519124333163008 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project1.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/algorithmStudy.git.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55676 START: 1728519124333352960 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 55676 END: 1728519124335076608 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 55676 START: 1728519124335179008 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55676 END: 1728519124335336448 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55676 START: 1728519124335441920 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'symbolic-ref', '-m', 'manifest set to main', 'refs/remotes/m/master', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to main refs/remotes/m/master refs/remotes/origin/main 1>| 2>|
+
+PID: 55676 END: 1728519124336812288 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'symbolic-ref', '-m', 'manifest set to main', 'refs/remotes/m/master', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to main refs/remotes/m/master refs/remotes/origin/main 1>| 2>|
+
+PID: 55676 START: 1728519124337210624 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55676 END: 1728519124337260544 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55676 START: 1728519124337677056 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git
+: git init 1>| 2>|
+
+PID: 55676 END: 1728519124340839680 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git
+: git init 1>| 2>|
+
+PID: 55676 START: 1728519124342665728 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --null --list 1>| 2>|
+
+PID: 55676 END: 1728519124343817472 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --null --list 1>| 2>|
+
+PID: 55676 START: 1728519124344105984 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 55676 END: 1728519124345350656 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 55676 START: 1728519124345473280 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 55676 END: 1728519124346721792 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 55676 START: 1728519124346844160 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 55676 END: 1728519124348162048 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 55676 START: 1728519124348302592 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/kyoungbinkim/LGEcodejam.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all remote.origin.url https://github.com/kyoungbinkim/LGEcodejam.git 1>| 2>|
+
+PID: 55676 END: 1728519124349559552 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/kyoungbinkim/LGEcodejam.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all remote.origin.url https://github.com/kyoungbinkim/LGEcodejam.git 1>| 2>|
+
+PID: 55676 START: 1728519124349687808 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'kyoungbinkim/LGEcodejam.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all remote.origin.projectname kyoungbinkim/LGEcodejam.git 1>| 2>|
+
+PID: 55676 END: 1728519124350904320 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'kyoungbinkim/LGEcodejam.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all remote.origin.projectname kyoungbinkim/LGEcodejam.git 1>| 2>|
+
+PID: 55676 START: 1728519124351109120 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 55676 END: 1728519124352372480 :git command /home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 55676 START: 1728519124352510976 :Fetching bundle: curl --fail --output /home/kim/workspace/algoManifest/.repo/projects/project2.git/clone.bundle.tmp --netrc --location https://github.com/kyoungbinkim/LGEcodejam.git/clone.bundle
+
+PID: 55676 END: 1728519124352866304 :Fetching bundle: curl --fail --output /home/kim/workspace/algoManifest/.repo/projects/project2.git/clone.bundle.tmp --netrc --location https://github.com/kyoungbinkim/LGEcodejam.git/clone.bundle
+
+PID: 55676 START: 1728519124634115328 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project2.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55676 END: 1728519125437296896 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project2.git
+: export GIT_OBJECT_DIRECTORY=/home/kim/workspace/algoManifest/.repo/project-objects/kyoungbinkim/LGEcodejam.git.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 55676 START: 1728519125437474304 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 55676 END: 1728519125439173632 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 55676 START: 1728519125439251968 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55676 END: 1728519125439400448 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55676 START: 1728519125439508224 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'symbolic-ref', '-m', 'manifest set to main', 'refs/remotes/m/master', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to main refs/remotes/m/master refs/remotes/origin/main 1>| 2>|
+
+PID: 55676 END: 1728519125440903424 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'symbolic-ref', '-m', 'manifest set to main', 'refs/remotes/m/master', 'refs/remotes/origin/main'] with debug: : git symbolic-ref -m manifest set to main refs/remotes/m/master refs/remotes/origin/main 1>| 2>|
+
+PID: 55676 START: 1728519125441262080 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55676 END: 1728519125441312256 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55676 START: 1728519125442098176 :: load refs /home/kim/workspace/algoManifest/.repo/repo/.git
+
+PID: 55676 END: 1728519125448383488 :: load refs /home/kim/workspace/algoManifest/.repo/repo/.git
+
+PID: 55829 START: 1728519125467357184 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --null --list 1>| 2>|
+
+PID: 55829 END: 1728519125468718336 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project1.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project1.git/config --includes --null --list 1>| 2>|
+
+PID: 55829 START: 1728519125469113856 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project1.git
+: git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 55829 END: 1728519125470445312 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project1.git
+: git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 55829 START: 1728519125470721280 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/kim/workspace/algoManifest/project1
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 55829 END: 1728519125498535168 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/kim/workspace/algoManifest/project1
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 55829 START: 1728519125498664192 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55829 END: 1728519125498884864 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55829 START: 1728519125499386112 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --null --list 1>| 2>|
+
+PID: 55829 END: 1728519125500673536 :git command /home/kim/workspace/algoManifest/.repo/projects/project1.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/projects/project2.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/projects/project2.git/config --includes --null --list 1>| 2>|
+
+PID: 55829 START: 1728519125500890880 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project2.git
+: git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 55829 END: 1728519125502246912 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: 
+: export GIT_DIR=/home/kim/workspace/algoManifest/.repo/projects/project2.git
+: git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 55829 START: 1728519125502483456 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/kim/workspace/algoManifest/project2
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 55829 END: 1728519125506037760 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/kim/workspace/algoManifest/project2
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 55829 START: 1728519125506219520 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55829 END: 1728519125506544896 :: load refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55676 START: 1728519125508301568 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55676 END: 1728519125508644096 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project1.git
+
+PID: 55676 START: 1728519125508738304 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55676 END: 1728519125508801024 :: scan refs /home/kim/workspace/algoManifest/.repo/projects/project2.git
+
+PID: 55676 START: 1728519125513391872 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2024-10-10T00:12:05.513129+00:00'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2024-10-10T00:12:05.513129+00:00 1>| 2>|
+
+PID: 55676 END: 1728519125515798528 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2024-10-10T00:12:05.513129+00:00'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2024-10-10T00:12:05.513129+00:00 1>| 2>|
+
+PID: 55676 START: 1728519125516019712 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 55676 END: 1728519125517976576 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 55676 START: 1728519125518236416 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/kim/workspace/algoManifest/.repo/repo/main.py', '--repo-dir=/home/kim/workspace/algoManifest/.repo', '--wrapper-version=2.36', '--wrapper-path=/usr/bin/repo', '--', 'sync']"] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/kim/workspace/algoManifest/.repo/repo/main.py', '--repo-dir=/home/kim/workspace/algoManifest/.repo', '--wrapper-version=2.36', '--wrapper-path=/usr/bin/repo', '--', 'sync'] 1>| 2>|
+
+PID: 55676 END: 1728519125520000256 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/kim/workspace/algoManifest/.repo/repo/main.py', '--repo-dir=/home/kim/workspace/algoManifest/.repo', '--wrapper-version=2.36', '--wrapper-path=/usr/bin/repo', '--', 'sync']"] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/kim/workspace/algoManifest/.repo/repo/main.py', '--repo-dir=/home/kim/workspace/algoManifest/.repo', '--wrapper-version=2.36', '--wrapper-path=/usr/bin/repo', '--', 'sync'] 1>| 2>|
+
+PID: 55676 START: 1728519125520276992 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '8'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 8 1>| 2>|
+
+PID: 55676 END: 1728519125521840640 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '8'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 8 1>| 2>|
+
+PID: 55676 START: 1728519125522096896 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 55676 END: 1728519125523753216 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 55676 START: 1728519125524015360 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '1'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 1 1>| 2>|
+
+PID: 55676 END: 1728519125525895424 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '1'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 1 1>| 2>|
+
+PID: 55676 START: 1728519125526093312 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '8'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 8 1>| 2>|
+
+PID: 55676 END: 1728519125527959808 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '8'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 8 1>| 2>|
+
+PID: 55676 START: 1728519125528198400 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 55676 END: 1728519125529935104 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 55676 START: 1728519125530145024 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 55676 END: 1728519125531469568 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 55676 START: 1728519125531603968 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 55676 END: 1728519125532849664 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 55676 START: 1728519125533016064 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 55676 END: 1728519125534342400 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 55676 START: 1728519125534463488 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 55676 END: 1728519125535657472 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 55676 START: 1728519125535787264 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 55676 END: 1728519125537047040 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 55676 START: 1728519125537217536 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 55676 END: 1728519125538535680 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 55676 START: 1728519125538703104 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/kyoungbinkim/algoManifest.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/kyoungbinkim/algoManifest.git 1>| 2>|
+
+PID: 55676 END: 1728519125539923456 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/kyoungbinkim/algoManifest.git'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/kyoungbinkim/algoManifest.git 1>| 2>|
+
+PID: 55676 START: 1728519125540119296 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 55676 END: 1728519125541390080 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 55676 START: 1728519125541525504 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 55676 END: 1728519125542769664 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 55676 START: 1728519125542898944 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 55676 END: 1728519125544235264 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 55676 START: 1728519125544356096 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 55676 END: 1728519125545614080 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 55676 START: 1728519125545731840 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '2'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 2 1>| 2>|
+
+PID: 55676 END: 1728519125547051520 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--file', '/home/kim/workspace/algoManifest/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '2'] with debug: : git config --file /home/kim/workspace/algoManifest/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 2 1>| 2>|
+
+PID: 55676 START: 1728519125547659520 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 55676 END: 1728519125548792576 :git command /home/kim/workspace/algoManifest/.repo/projects/project2.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 55676 END: 1728519125552177664 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20241010T001202Z-P0000d97c/repo-20241010T001202Z-P0000d97c]
+

@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://github.com/kyoungbinkim/LGEcodejam.git
+	projectname = kyoungbinkim/LGEcodejam.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 81c5fab5830dc8729383f2db1cd8a6812e195f5e kyoungbin.kim <kyoungbin.kim@lge.com> 1728519124 +0900	fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/*: storing head
