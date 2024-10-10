@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/"/>
+  <default revision="main" remote="origin" />
+  <project name="kyoungbinkim/algorithmStudy.git" path="project1" remote="origin" revision="main"/>
+  <project name="kyoungbinkim/LGEcodejam.git" path="project2" remote="origin" revision="0234f0a8f91a1fc4a59066ca38f8129089e19e6b"/>
+</manifest>
